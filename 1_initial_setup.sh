@@ -7,9 +7,8 @@ echo "change your initial password for raspbian, default:raspberry"
 passwd
 
 echo "install git & get this package"
-apt-get update
-apt-get install git -y
-mkdir /home/pi/DockerSwarmTools
-cd /home/pi/DockerSwarmTools
+sudo apt-get update
+sudo apt-get install git -y
 git clone https://github.com/SySfRaMe/DockerSwarmTools.git
+cd /home/pi/DockerSwarmTools
 Echo "todo add git dir"
