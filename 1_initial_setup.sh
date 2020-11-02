@@ -8,4 +8,5 @@ apt-get update
 apt-get install git -y
 mkdir /home/pi/DockerSwarmTools
 cd /home/pi/DockerSwarmTools
+git clone https://github.com/SySfRaMe/DockerSwarmTools.git
 Echo "todo add git dir"
