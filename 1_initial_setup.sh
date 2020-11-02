@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "download image and burn to sd-card"
+echo "add a file called ssh in the boot folder"
+echo "plugin rpi and boot"
 echo "uncomment/comment commands at your desire"
 echo "change your initial password for raspbian"
 passwd
